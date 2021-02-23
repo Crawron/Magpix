@@ -1,15 +1,11 @@
 {
 	"iconDefinitions": {
-		//#region Doc
 		"license": {
 			"iconPath": "icons/license.svg"
 		},
 		"readme": {
 			"iconPath": "icons/readme.svg"
 		},
-		//#endregion
-
-		//#region File
 		"file": {
 			"iconPath": "icons/file.svg"
 		},
@@ -34,9 +30,6 @@
 		"zip": {
 			"iconPath": "icons/zip.svg"
 		},
-		//#endregion
-
-		//#region Folder
 		"folder-open": {
 			"iconPath": "icons/folder-open.svg"
 		},
@@ -67,9 +60,6 @@
 		"folder-vscode": {
 			"iconPath": "icons/vscode.svg"
 		},
-		//#endregion
-
-		//#region Source
 		"source-c": {
 			"iconPath": "icons/c.svg"
 		},
@@ -100,9 +90,6 @@
 		"source-vue": {
 			"iconPath": "icons/vue.svg"
 		},
-		//#endregion
-
-		//#region Tech
 		"babel": {
 			"iconPath": "icons/babel.svg"
 		},
@@ -151,16 +138,12 @@
 		"yarn-gray": {
 			"iconPath": "icons/yarn-gray.svg"
 		},
-		//#endregion
-
-		//#region Misc
 		"magpix": {
 			"iconPath": "icons/magpix.svg"
 		},
 		"trans": {
 			"iconPath": "icons/trans.svg"
 		}
-		//#endregion
 	},
 
 	"hidesExplorerArrows": true,
