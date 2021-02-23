@@ -1,6 +1,7 @@
 {
 	"name": "magpix",
 	"publisher": "crawron",
+	"license": "MIT",
 	"displayName": "Magpix",
 	"description": "Pixel Perfect Icons for Visual Studio Code",
 	"icon": "images/market-icon.png",
