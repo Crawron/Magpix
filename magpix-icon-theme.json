@@ -206,6 +206,8 @@
 		"readme.md": "readme",
 		"license": "license",
 		"license.txt": "license",
+		"license-graphics": "license",
+		"license-graphics.txt": "license",
 		".yarnrc": "yarn",
 		".yarnrc.yml": "yarn",
 		"yarn.lock": "yarn-gray",
