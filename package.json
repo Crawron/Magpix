@@ -3,6 +3,7 @@
 	"publisher": "crawron",
 	"displayName": "Magpix",
 	"description": "Pixel Perfect Icon Pack",
+	"repository": "github:Crawron/Magpix",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.53.0"
