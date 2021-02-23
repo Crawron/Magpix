@@ -209,7 +209,7 @@
 		"license.txt": "license",
 		".yarnrc": "yarn",
 		".yarnrc.yml": "yarn",
-		"yarn.lock": "yarn",
+		"yarn.lock": "yarn-gray",
 		"yarn-error.log": "yarn-gray",
 		".pnp.js": "yarn-gray",
 		"webpack.config.js": "webpack",
