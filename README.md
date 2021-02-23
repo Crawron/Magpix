@@ -6,6 +6,7 @@ Pixel Perfect Icon Theme For Visual Studio Code
 
 - [GitHub](https://github.com/Crawron/Magpix)
 - [Suggestions and Issues](https://github.com/Crawron/Magpix/issues)
+- [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=crawron.magpix)
 
 ## Aligned to the pixel grid
 
