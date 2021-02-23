@@ -84,6 +84,9 @@
 		"source-rs": {
 			"iconPath": "icons/rs.svg"
 		},
+		"source-rb": {
+			"iconPath": "icons/rb.svg"
+		},
 		"source-ts": {
 			"iconPath": "icons/ts.svg"
 		},
@@ -160,21 +163,34 @@
 		"src": "folder-src-open"
 	},
 
+	"languageIds": {
+		"csharp": "source-cs",
+		"cpp": "source-cpp",
+		"c": "source-c",
+		"java": "source-java",
+		"typescript": "source-ts",
+		"typescriptreact": "source-ts",
+		"kotlin": "source-kt",
+		"javascript": "source-js",
+		"javascriptreact": "source-js",
+		"python": "source-py",
+		"ruby": "source-rb",
+		"rust": "source-rs",
+		"vue": "source-vue",
+		"vue-postcss": "source-vue",
+		"vue-html": "source-vue",
+		"git-commit": "git",
+		"git-rebase": "git",
+		"plaintext": "text",
+		"yaml": "yaml",
+		"json": "json",
+		"json5": "json",
+		"markdown": "markdown",
+		"dotenv": "dotenv"
+	},
+
 	"file": "file",
 	"fileExtensions": {
-		"js": "source-js",
-		"jsx": "source-js",
-		"ts": "source-ts",
-		"tsx": "source-ts",
-		"rs": "source-rs",
-		"py": "source-py",
-		"vue": "source-vue",
-
-		"json": "json",
-		"md": "markdown",
-		"txt": "text",
-		"yml": "yaml",
-		"yaml": "yaml",
 		"png": "image",
 		"jpg": "image",
 		"jpeg": "image",
