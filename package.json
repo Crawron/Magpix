@@ -15,7 +15,7 @@
 			{
 				"id": "magpix",
 				"label": "Magpix",
-				"path": "./icons/magpix-icon-theme.json"
+				"path": "./magpix-icon-theme.json"
 			}
 		]
 	},

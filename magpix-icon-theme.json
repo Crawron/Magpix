@@ -2,163 +2,163 @@
 	"iconDefinitions": {
 		//#region Doc
 		"license": {
-			"iconPath": "doc/license.svg"
+			"iconPath": "icons/license.svg"
 		},
 		"readme": {
-			"iconPath": "doc/readme.svg"
+			"iconPath": "icons/readme.svg"
 		},
 		//#endregion
 
 		//#region File
 		"file": {
-			"iconPath": "file/_default.svg"
+			"iconPath": "icons/file.svg"
 		},
 		"audio": {
-			"iconPath": "file/audio.svg"
+			"iconPath": "icons/audio.svg"
 		},
 		"image": {
-			"iconPath": "file/image.svg"
+			"iconPath": "icons/image.svg"
 		},
 		"json": {
-			"iconPath": "file/json.svg"
+			"iconPath": "icons/json.svg"
 		},
 		"markdown": {
-			"iconPath": "file/markdown.svg"
+			"iconPath": "icons/markdown.svg"
 		},
 		"text": {
-			"iconPath": "file/text.svg"
+			"iconPath": "icons/text.svg"
 		},
 		"yaml": {
-			"iconPath": "file/yaml.svg"
+			"iconPath": "icons/yaml.svg"
 		},
 		"zip": {
-			"iconPath": "file/zip.svg"
+			"iconPath": "icons/zip.svg"
 		},
 		//#endregion
 
 		//#region Folder
 		"folder-open": {
-			"iconPath": "folder/_default-open.svg"
+			"iconPath": "icons/folder-open.svg"
 		},
 		"folder": {
-			"iconPath": "folder/_default.svg"
+			"iconPath": "icons/folder.svg"
 		},
 		"folder-node-modules-open": {
-			"iconPath": "folder/node-modules-open.svg"
+			"iconPath": "icons/node-modules-open.svg"
 		},
 		"folder-node-modules": {
-			"iconPath": "folder/node-modules.svg"
+			"iconPath": "icons/node-modules.svg"
 		},
 		"folder-src-open": {
-			"iconPath": "folder/src-open.svg"
+			"iconPath": "icons/src-open.svg"
 		},
 		"folder-src": {
-			"iconPath": "folder/src.svg"
+			"iconPath": "icons/src.svg"
 		},
 		"folder-tests-open": {
-			"iconPath": "folder/tests-open.svg"
+			"iconPath": "icons/tests-open.svg"
 		},
 		"folder-tests": {
-			"iconPath": "folder/tests.svg"
+			"iconPath": "icons/tests.svg"
 		},
 		"folder-vscode-open": {
-			"iconPath": "folder/vscode-open.svg"
+			"iconPath": "icons/vscode-open.svg"
 		},
 		"folder-vscode": {
-			"iconPath": "folder/vscode.svg"
+			"iconPath": "icons/vscode.svg"
 		},
 		//#endregion
 
 		//#region Source
 		"source-c": {
-			"iconPath": "source/c.svg"
+			"iconPath": "icons/c.svg"
 		},
 		"source-cpp": {
-			"iconPath": "source/cpp.svg"
+			"iconPath": "icons/cpp.svg"
 		},
 		"source-cs": {
-			"iconPath": "source/cs.svg"
+			"iconPath": "icons/cs.svg"
 		},
 		"source-java": {
-			"iconPath": "source/java.svg"
+			"iconPath": "icons/java.svg"
 		},
 		"source-js": {
-			"iconPath": "source/js.svg"
+			"iconPath": "icons/js.svg"
 		},
 		"source-kt": {
-			"iconPath": "source/kt.svg"
+			"iconPath": "icons/kt.svg"
 		},
 		"source-py": {
-			"iconPath": "source/py.svg"
+			"iconPath": "icons/py.svg"
 		},
 		"source-rs": {
-			"iconPath": "source/rs.svg"
+			"iconPath": "icons/rs.svg"
 		},
 		"source-ts": {
-			"iconPath": "source/ts.svg"
+			"iconPath": "icons/ts.svg"
 		},
 		"source-vue": {
-			"iconPath": "source/vue.svg"
+			"iconPath": "icons/vue.svg"
 		},
 		//#endregion
 
 		//#region Tech
 		"babel": {
-			"iconPath": "tech/babel.svg"
+			"iconPath": "icons/babel.svg"
 		},
 		"docker": {
-			"iconPath": "tech/docker.svg"
+			"iconPath": "icons/docker.svg"
 		},
 		"docker-gray": {
-			"iconPath": "tech/docker-gray.svg"
+			"iconPath": "icons/docker-gray.svg"
 		},
 		"dotenv": {
-			"iconPath": "tech/dotenv.svg"
+			"iconPath": "icons/dotenv.svg"
 		},
 		"eslint": {
-			"iconPath": "tech/eslint.svg"
+			"iconPath": "icons/eslint.svg"
 		},
 		"git": {
-			"iconPath": "tech/git.svg"
+			"iconPath": "icons/git.svg"
 		},
 		"npm": {
-			"iconPath": "tech/npm.svg"
+			"iconPath": "icons/npm.svg"
 		},
 		"npm-gray": {
-			"iconPath": "tech/npm-gray.svg"
+			"iconPath": "icons/npm-gray.svg"
 		},
 		"pnpm": {
-			"iconPath": "tech/pnpm.svg"
+			"iconPath": "icons/pnpm.svg"
 		},
 		"prettier": {
-			"iconPath": "tech/prettier.svg"
+			"iconPath": "icons/prettier.svg"
 		},
 		"prettier-gray": {
-			"iconPath": "tech/prettier-gray.svg"
+			"iconPath": "icons/prettier-gray.svg"
 		},
 		"tailwind": {
-			"iconPath": "tech/tailwind.svg"
+			"iconPath": "icons/tailwind.svg"
 		},
 		"typescript": {
-			"iconPath": "tech/typescript.svg"
+			"iconPath": "icons/typescript.svg"
 		},
 		"webpack": {
-			"iconPath": "tech/webpack.svg"
+			"iconPath": "icons/webpack.svg"
 		},
 		"yarn": {
-			"iconPath": "tech/yarn.svg"
+			"iconPath": "icons/yarn.svg"
 		},
 		"yarn-gray": {
-			"iconPath": "tech/yarn-gray.svg"
+			"iconPath": "icons/yarn-gray.svg"
 		},
 		//#endregion
 
 		//#region Misc
 		"magpix": {
-			"iconPath": "magpix.svg"
+			"iconPath": "icons/magpix.svg"
 		},
 		"trans": {
-			"iconPath": "trans.svg"
+			"iconPath": "icons/trans.svg"
 		}
 		//#endregion
 	},
