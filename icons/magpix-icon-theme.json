@@ -1,0 +1,249 @@
+{
+	"iconDefinitions": {
+		//#region Doc
+		"license": {
+			"iconPath": "doc/license.svg"
+		},
+		"readme": {
+			"iconPath": "doc/readme.svg"
+		},
+		//#endregion
+
+		//#region File
+		"file": {
+			"iconPath": "file/_default.svg"
+		},
+		"audio": {
+			"iconPath": "file/audio.svg"
+		},
+		"image": {
+			"iconPath": "file/image.svg"
+		},
+		"json": {
+			"iconPath": "file/json.svg"
+		},
+		"markdown": {
+			"iconPath": "file/markdown.svg"
+		},
+		"text": {
+			"iconPath": "file/text.svg"
+		},
+		"yaml": {
+			"iconPath": "file/yaml.svg"
+		},
+		"zip": {
+			"iconPath": "file/zip.svg"
+		},
+		//#endregion
+
+		//#region Folder
+		"folder-open": {
+			"iconPath": "folder/_default-open.svg"
+		},
+		"folder": {
+			"iconPath": "folder/_default.svg"
+		},
+		"folder-node-modules-open": {
+			"iconPath": "folder/node-modules-open.svg"
+		},
+		"folder-node-modules": {
+			"iconPath": "folder/node-modules.svg"
+		},
+		"folder-src-open": {
+			"iconPath": "folder/src-open.svg"
+		},
+		"folder-src": {
+			"iconPath": "folder/src.svg"
+		},
+		"folder-tests-open": {
+			"iconPath": "folder/tests-open.svg"
+		},
+		"folder-tests": {
+			"iconPath": "folder/tests.svg"
+		},
+		"folder-vscode-open": {
+			"iconPath": "folder/vscode-open.svg"
+		},
+		"folder-vscode": {
+			"iconPath": "folder/vscode.svg"
+		},
+		//#endregion
+
+		//#region Source
+		"source-c": {
+			"iconPath": "source/c.svg"
+		},
+		"source-cpp": {
+			"iconPath": "source/cpp.svg"
+		},
+		"source-cs": {
+			"iconPath": "source/cs.svg"
+		},
+		"source-java": {
+			"iconPath": "source/java.svg"
+		},
+		"source-js": {
+			"iconPath": "source/js.svg"
+		},
+		"source-kt": {
+			"iconPath": "source/kt.svg"
+		},
+		"source-py": {
+			"iconPath": "source/py.svg"
+		},
+		"source-rs": {
+			"iconPath": "source/rs.svg"
+		},
+		"source-ts": {
+			"iconPath": "source/ts.svg"
+		},
+		"source-vue": {
+			"iconPath": "source/vue.svg"
+		},
+		//#endregion
+
+		//#region Tech
+		"babel": {
+			"iconPath": "tech/babel.svg"
+		},
+		"docker": {
+			"iconPath": "tech/docker.svg"
+		},
+		"docker-gray": {
+			"iconPath": "tech/docker-gray.svg"
+		},
+		"dotenv": {
+			"iconPath": "tech/dotenv.svg"
+		},
+		"eslint": {
+			"iconPath": "tech/eslint.svg"
+		},
+		"git": {
+			"iconPath": "tech/git.svg"
+		},
+		"npm": {
+			"iconPath": "tech/npm.svg"
+		},
+		"npm-gray": {
+			"iconPath": "tech/npm-gray.svg"
+		},
+		"pnpm": {
+			"iconPath": "tech/pnpm.svg"
+		},
+		"prettier": {
+			"iconPath": "tech/prettier.svg"
+		},
+		"prettier-gray": {
+			"iconPath": "tech/prettier-gray.svg"
+		},
+		"tailwind": {
+			"iconPath": "tech/tailwind.svg"
+		},
+		"typescript": {
+			"iconPath": "tech/typescript.svg"
+		},
+		"webpack": {
+			"iconPath": "tech/webpack.svg"
+		},
+		"yarn": {
+			"iconPath": "tech/yarn.svg"
+		},
+		"yarn-gray": {
+			"iconPath": "tech/yarn-gray.svg"
+		},
+		//#endregion
+
+		//#region Misc
+		"magpix": {
+			"iconPath": "magpix.svg"
+		},
+		"trans": {
+			"iconPath": "trans.svg"
+		}
+		//#endregion
+	},
+
+	"hidesExplorerArrows": true,
+
+	"folder": "folder",
+	"folderNames": {
+		".vscode": "folder-vscode",
+		"src": "folder-src"
+	},
+
+	"folderExpanded": "folder-open",
+	"folderNamesExpanded": {
+		".vscode": "folder-vscode-open",
+		"src": "folder-src-open"
+	},
+
+	"file": "file",
+	"fileExtensions": {
+		"js": "source-js",
+		"jsx": "source-js",
+		"ts": "source-ts",
+		"tsx": "source-ts",
+		"rs": "source-rs",
+		"py": "source-py",
+		"vue": "source-vue",
+
+		"json": "json",
+		"md": "markdown",
+		"txt": "text",
+		"yml": "yaml",
+		"yaml": "yaml",
+		"png": "image",
+		"jpg": "image",
+		"jpeg": "image",
+		"svg": "image",
+		"zip": "zip",
+		"rar": "zip",
+		"tar": "zip",
+		"gz": "zip",
+		"7z": "zip"
+	},
+
+	"fileNames": {
+		"readme.md": "readme",
+		"license": "license",
+		"license.txt": "license",
+		".yarnrc": "yarn",
+		".yarnrc.yml": "yarn",
+		"yarn.lock": "yarn",
+		"yarn-error.log": "yarn-gray",
+		".pnp.js": "yarn-gray",
+		"webpack.config.js": "webpack",
+		".gitignore": "git",
+		".gitattributes": "git",
+		".gitmodules": "git",
+		"package.json": "npm",
+		".npmrc": "npm",
+		".npmignore": "npm-gray",
+		"tsconfig.json": "typescript",
+		"babel.config.js": "babel",
+		"tailwind.config.js": "tailwind",
+		".env": "dotenv",
+		"pnpm-lock.yaml": "pnpm",
+		"dockerfile": "docker",
+		"docker-compose.yml": "docker",
+		".dockerignore": "docker",
+		".prettierrc": "prettier",
+		".prettierrc.json": "prettier",
+		".prettierrc.yml": "prettier",
+		".prettierrc.yaml": "prettier",
+		".prettierrc.json5": "prettier",
+		".prettierrc.js": "prettier",
+		".prettierrc.cjs": "prettier",
+		"prettier.config.js": "prettier",
+		"prettier.config.cjs": "prettier",
+		".prettierrc.toml": "prettier",
+		".prettierignore": "prettier-gray",
+		".eslintrc.js": "eslint",
+		".eslintrc.cjs": "eslint",
+		".eslintrc.yaml": "eslint",
+		".eslintrc.yml": "eslint",
+		".eslintrc.json": "eslint",
+		"trans.rights": "trans",
+		"icawns": "magpix"
+	}
+}
