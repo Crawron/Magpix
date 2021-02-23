@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.0.3
+
+- Fix Readme images
+
 ## 0.0.2
 
 - Add Marketplace icon and theme

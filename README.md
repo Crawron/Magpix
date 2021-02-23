@@ -1,4 +1,4 @@
-![magpix icon](images/readme-logo.png)
+![magpix icon](https://raw.githubusercontent.com/Crawron/Magpix/main/images/readme-logo.png)
 
 # Magpix
 
@@ -11,7 +11,7 @@ Pixel Perfect Icon Theme For Visual Studio Code
 
 All icons have been designed from the scratch in a 16px frame, to ensure they will look as sharp as possible.
 
-![grid preview](images/readme-preview.png)
+![grid preview](https://raw.githubusercontent.com/Crawron/Magpix/main/images/readme-preview.png)
 
 ## Licenses
 
