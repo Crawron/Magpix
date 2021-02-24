@@ -1,5 +1,9 @@
 # Change Log
 
+## [Unreleased]
+
+- Add missing Babel config file names
+
 ## 0.0.3
 
 - Fix Readme images
