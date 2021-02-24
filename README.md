@@ -1,6 +1,6 @@
 ![magpix icon](https://raw.githubusercontent.com/Crawron/Magpix/main/images/readme-logo.png)
 
-# Magpix
+# **Magpix**
 
 Pixel Perfect Icon Theme For Visual Studio Code
 
@@ -8,9 +8,15 @@ Pixel Perfect Icon Theme For Visual Studio Code
 - [Suggestions and Issues](https://github.com/Crawron/Magpix/issues)
 - [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=crawron.magpix)
 
-## Aligned to the pixel grid
+## 🥚 Currently in dvelopment.
 
-All icons have been designed from the scratch in a 16px frame, to ensure they will look as sharp as possible.
+At the moment only Javascript and Typescript have deeper support, while other languages and filetypes are only partially implemented.
+
+Please leave language and file suggestions as an [issue](https://github.com/Crawron/Magpix/issues) in GitHub.
+
+## 🐦 Aligned to the pixel grid
+
+All icons have been designed from scratch in a 16px frame, to ensure they will look as sharp as possible.
 
 ![grid preview](https://raw.githubusercontent.com/Crawron/Magpix/main/images/readme-preview.png)
 
