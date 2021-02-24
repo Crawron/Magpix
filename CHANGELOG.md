@@ -1,6 +1,6 @@
 # Change Log
 
-## [Unreleased]
+## [0.0.4] - 2021-02-24
 
 - Add missing Babel config file names
 
