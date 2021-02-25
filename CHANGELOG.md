@@ -11,6 +11,8 @@
 - Make `.dockerignore` gray
 - Changed the frame for language source files to be slightly thicker on the corner
 - Edited `.rs` icon to be thicker
+- Changed the frame for regular files to have a solid corner
+- Tweaked regular file icons
 
 ## [0.0.4] - 2021-02-24
 
