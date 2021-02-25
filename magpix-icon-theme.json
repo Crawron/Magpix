@@ -146,6 +146,12 @@
 		},
 		"trans": {
 			"iconPath": "icons/trans.svg"
+		},
+		"php-source": {
+			"iconPath": "icons/php.svg"
+		},
+		"blade-source": {
+			"iconPath": "icons/blade.php.svg"
 		}
 	},
 
@@ -186,7 +192,9 @@
 		"json": "json",
 		"json5": "json",
 		"markdown": "markdown",
-		"dotenv": "dotenv"
+		"dotenv": "dotenv",
+		"blade": "blade-source",
+		"php": "php-source"
 	},
 
 	"file": "file",

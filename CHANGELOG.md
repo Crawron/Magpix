@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- Added .php and .blade.php icons
+
 ### Changed
 
 - Make .dockerignore gray
