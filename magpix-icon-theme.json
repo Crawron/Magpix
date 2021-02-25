@@ -152,18 +152,26 @@
 		},
 		"blade-source": {
 			"iconPath": "icons/blade.php.svg"
+		},
+		"rootdir": {
+			"iconPath": "icons/rootdir.svg"
+		},
+		"rootdir-open": {
+			"iconPath": "icons/rootdir-open.svg"
 		}
 	},
 
 	"hidesExplorerArrows": true,
 
 	"folder": "folder",
+	"rootFolder": "rootdir",
 	"folderNames": {
 		".vscode": "folder-vscode",
 		"src": "folder-src"
 	},
 
 	"folderExpanded": "folder-open",
+	"rootFolderExpanded": "rootdir-open",
 	"folderNamesExpanded": {
 		".vscode": "folder-vscode-open",
 		"src": "folder-src-open"

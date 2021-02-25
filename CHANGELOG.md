@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Added
+
+- Add workspace root folder icon
+
 ### Changed
 
 - Tweaked Readme and License icons
