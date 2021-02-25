@@ -235,7 +235,7 @@
 		"pnpm-lock.yaml": "pnpm",
 		"dockerfile": "docker",
 		"docker-compose.yml": "docker",
-		".dockerignore": "docker",
+		".dockerignore": "docker-gray",
 		".prettierrc": "prettier",
 		".prettierrc.json": "prettier",
 		".prettierrc.yml": "prettier",
