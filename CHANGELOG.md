@@ -1,5 +1,11 @@
 # Change Log
 
+## [Unreleased]
+
+### Changed
+
+- Tweaked Readme and License icons
+
 ## [0.0.5] - 2021-02-25
 
 ### Added
