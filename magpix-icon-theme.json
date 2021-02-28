@@ -234,6 +234,7 @@
 		".gitattributes": "git",
 		".gitmodules": "git",
 		"package.json": "npm",
+		"package-lock.json": "npm-gray",
 		".npmrc": "npm",
 		".npmignore": "npm-gray",
 		"tsconfig.json": "typescript",

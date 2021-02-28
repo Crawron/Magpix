@@ -5,6 +5,7 @@
 ### Added
 
 - Add workspace root folder icon
+- Add icon for `package-lock.json`
 
 ### Changed
 
