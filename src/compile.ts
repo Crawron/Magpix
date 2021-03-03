@@ -1,0 +1,2 @@
+import "./convertIconPalette"
+import "./genIconThemeFile"
