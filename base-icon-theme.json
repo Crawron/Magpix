@@ -4,8 +4,8 @@
 	"folder": "folder",
 	"rootFolder": "rootdir",
 	"folderNames": {
-		".vscode": "folder-vscode",
-		"src": "folder-src"
+		".vscode": "vscode",
+		"src": "src"
 	},
 
 	"folderExpanded": "folder-open",
