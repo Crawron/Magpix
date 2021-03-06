@@ -55,6 +55,7 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         uses: pnpm/action-setup@v1.2.1
         with:
+          version: latest
           run_install: true
 
       - name: Compile extension
