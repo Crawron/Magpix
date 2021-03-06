@@ -4,6 +4,7 @@
 
 ### Added
 
+- Add Light theme icons!
 - Add workspace root folder icon
 - Add icon for `package-lock.json`
 
