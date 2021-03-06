@@ -1,0 +1,91 @@
+name: publish
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  publish:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os:
+          - ubuntu-latest
+        node:
+          - 14
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Validate version
+        run: test "${GITHUB_REF#refs/tags/v}" = "$(jq -r .version package.json)"
+
+      - name: Setup environment
+        run: |
+          jq -r '"::set-output name=version::" + .version' package.json
+          jq -r '"::set-output name=name::" + .name + "-" + .version' package.json
+
+      - name: Read changelog
+        id: changelog
+        uses: mindsers/changelog-reader-action@v2
+        with:
+          version: ${{ steps.env.outputs.version }}
+          path: ./CHANGELOG.md
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node }}
+
+      - name: Cache pnpm modules
+        uses: actions/cache@v2
+        id: cache
+        with:
+          path: |
+            ~/.pnpm-store
+            **/node_modules
+          key: ${{ matrix.os }}-node${{ matrix.node }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ matrix.os }}-node${{ matrix.node }}-
+
+      - name: Install pnpm and dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        uses: pnpm/actions-setup@v1.2.1
+        with:
+          run_install: true
+
+      - name: Compile extension
+        run: pnpm run compile
+
+      - name: Package extension
+        run: pnpm run vsce -- pack
+
+      - name: Publish extension
+        run: pnpm run vsce -- publish --packagePath ./${{ steps.env.outputs.name }}.vsix
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+
+      - name: Create GitHub release
+        id: release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.changelog.outputs.version }}
+          release_name: Release ${{ steps.changelog.outputs.version }}
+          body: ${{ steps.changelog.outputs.changes }}
+          prerelease: ${{ steps.changelog.outputs.status == 'prereleased' }}
+          draft: ${{ steps.changelog.outputs.status == 'unreleased' }}
+
+      - name: Upload extension to GitHub release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.release.outputs.upload_url }}
+          asset_path: ./magpix-${{ steps.changelog.outputs.version }}.vsix
+          asset_name: magpix-${{ steps.changelog.outputs.version }}.vsix
+          asset_content_type: application/zip
