@@ -24,6 +24,7 @@ jobs:
         run: test "${GITHUB_REF#refs/tags/v}" = "$(jq -r .version package.json)"
 
       - name: Setup environment
+        id: env
         run: |
           jq -r '"::set-output name=version::" + .version' package.json
           jq -r '"::set-output name=name::" + .name + "-" + .version' package.json
