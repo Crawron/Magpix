@@ -11,8 +11,8 @@
 	"folderExpanded": "folder-open",
 	"rootFolderExpanded": "rootdir-open",
 	"folderNamesExpanded": {
-		".vscode": "folder-vscode-open",
-		"src": "folder-src-open"
+		".vscode": "vscode-open",
+		"src": "src-open"
 	},
 
 	"languageIds": {
