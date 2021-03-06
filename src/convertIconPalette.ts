@@ -1,4 +1,5 @@
 import fs from "fs"
+import mkdirp from "mkdirp"
 import { join } from "path"
 
 const colorMap: [dark: string, light: string][] = [
@@ -20,6 +21,7 @@ const buildPath = "./dist"
 for (const filename of fs.readdirSync(iconDirPath)) {
 	const svgData = fs.readFileSync(join(iconDirPath, filename), "utf-8")
 
+	mkdirp.sync(join(buildPath, "icons"))
 	fs.copyFileSync(
 		join(iconDirPath, filename),
 		join(buildPath, "icons", filename)
@@ -29,5 +31,6 @@ for (const filename of fs.readdirSync(iconDirPath)) {
 	for (const [dark, light] of colorMap)
 		result = result.replace(new RegExp(dark, "g"), light)
 
+	mkdirp.sync(join(buildPath, "icons-light"))
 	fs.writeFileSync(join(buildPath, "icons-light", filename), result)
 }

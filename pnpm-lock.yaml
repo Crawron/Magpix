@@ -1,10 +1,18 @@
 devDependencies:
+  '@types/mkdirp': 1.0.1
   '@types/node': 14.14.31
+  mkdirp: 1.0.4
   ts-node: 9.1.1_typescript@4.2.2
   typescript: 4.2.2
   vsce: 1.85.1
 lockfileVersion: 5.2
 packages:
+  /@types/mkdirp/1.0.1:
+    dependencies:
+      '@types/node': 14.14.31
+    dev: true
+    resolution:
+      integrity: sha512-HkGSK7CGAXncr8Qn/0VqNtExEE+PHMWb+qlR1faHMao7ng6P3tAaoWWBMdva0gL5h4zprjIO89GJOLXsMcDm1Q==
   /@types/node/14.14.31:
     dev: true
     resolution:
@@ -281,6 +289,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-yJHVQEhyqPLUTgt9B83PXu6W3rx4MvvHvSUvToogpwoGDOUQ+yDrR0HRot+yOCdCO7u4hX3pWft6kWBBcqh0UA==
+  /mkdirp/1.0.4:
+    dev: true
+    engines:
+      node: '>=10'
+    hasBin: true
+    resolution:
+      integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
   /mute-stream/0.0.8:
     dev: true
     resolution:
@@ -493,7 +508,9 @@ packages:
     resolution:
       integrity: sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==
 specifiers:
+  '@types/mkdirp': ^1.0.1
   '@types/node': ^14.14.31
+  mkdirp: ^1.0.4
   ts-node: ^9.1.1
   typescript: ^4.2.2
   vsce: ^1.85.0

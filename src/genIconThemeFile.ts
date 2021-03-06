@@ -1,5 +1,6 @@
 import { IconDefRecord, ThemeDefinition, BuildThemeFile } from "./types"
 import fs from "fs"
+import mkdirp from "mkdirp"
 
 function getIconDefs(path: string): IconDefRecord {
 	const iconDefs: Record<string, { iconPath: string }> = {}
@@ -46,6 +47,7 @@ const buildThemeFile: BuildThemeFile = {
 	light,
 }
 
+mkdirp.sync("dist")
 fs.writeFileSync(
 	"dist/build-icon-theme.json",
 	JSON.stringify(buildThemeFile, undefined, "\t")
