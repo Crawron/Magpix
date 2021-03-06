@@ -30,10 +30,7 @@
 		]
 	},
 	"scripts": {
-		"compile": "ts-node -P ./tsconfig.json src/compile.ts",
-		"pretest": "yarn run compile && yarn run lint",
-		"lint": "eslint src --ext ts",
-		"test": "node ./out/test/runTest.js"
+		"compile": "ts-node -P ./tsconfig.json src/compile.ts"
 	},
 	"devDependencies": {
 		"@types/node": "^14.14.31",
