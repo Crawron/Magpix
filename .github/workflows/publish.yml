@@ -62,7 +62,7 @@ jobs:
         run: pnpm run compile
 
       - name: Package extension
-        run: pnpm run vsce -- pack
+        run: pnpm run vsce -- package
 
       - name: Publish extension
         run: pnpm run vsce -- publish --packagePath ./${{ steps.env.outputs.name }}.vsix
