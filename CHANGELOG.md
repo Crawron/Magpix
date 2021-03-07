@@ -5,6 +5,7 @@
 ### Fixed
 
 - Fixed missing special folder expanded icons
+- Fixed missing `.blade.php` icon
 
 ## [0.0.6] - 2021-03-05
 

@@ -39,7 +39,7 @@
 		"json5": "json",
 		"markdown": "markdown",
 		"dotenv": "dotenv",
-		"blade": "blade",
+		"blade": "blade.php",
 		"php": "php"
 	},
 
