@@ -24,6 +24,7 @@ const themeFile = JSON.parse(
 const light: ThemeDefinition = {
 	...themeFile,
 	folderNames: { ...themeFile.folderNames },
+	folderNamesExpanded: { ...themeFile.folderNamesExpanded },
 	fileExtensions: { ...themeFile.fileExtensions },
 	fileNames: { ...themeFile.fileNames },
 	languageIds: { ...themeFile.languageIds },

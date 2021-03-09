@@ -4,6 +4,7 @@ export type ThemeDefinition = {
 	rootFolder: string
 	fileNames: Record<string, string>
 	folderNames: Record<string, string>
+	folderNamesExpanded: Record<string, string>
 	languageIds: Record<string, string>
 	fileExtensions: Record<string, string>
 }
