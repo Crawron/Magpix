@@ -2,9 +2,13 @@
 
 ## [Unreleased]
 
-## Added
+### Added
 
 - Add `html`, `xml`, `css` and `toml`
+
+### Changed
+
+- Tweak `markdown`, `yaml` and `text` icons
 
 ## [0.0.7] - 2021-03-07
 
