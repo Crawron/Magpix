@@ -40,7 +40,11 @@
 		"markdown": "markdown",
 		"dotenv": "dotenv",
 		"blade": "blade.php",
-		"php": "php"
+		"php": "php",
+		"css": "css",
+		"html": "html",
+		"xml": "xml",
+		"toml": "toml"
 	},
 
 	"file": "file",

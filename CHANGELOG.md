@@ -1,5 +1,11 @@
 # Change Log
 
+## [Unreleased]
+
+## Added
+
+- Add `html`, `xml`, `css` and `toml`
+
 ## [0.0.7] - 2021-03-07
 
 ### Fixed
