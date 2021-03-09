@@ -10,6 +10,7 @@
 ### Changed
 
 - Tweak `markdown`, `yaml` and `text` icons
+- Make unimportant proyect folders gray - To make folders like `src` and `tests` stand out more
 
 ## [0.0.7] - 2021-03-07
 
