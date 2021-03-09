@@ -5,14 +5,16 @@
 	"rootFolder": "rootdir",
 	"folderNames": {
 		".vscode": "vscode",
-		"src": "src"
+		"src": "src",
+		"tests": "tests"
 	},
 
 	"folderExpanded": "folder-open",
 	"rootFolderExpanded": "rootdir-open",
 	"folderNamesExpanded": {
 		".vscode": "vscode-open",
-		"src": "src-open"
+		"src": "src-open",
+		"tests": "tests-open"
 	},
 
 	"languageIds": {

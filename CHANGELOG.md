@@ -4,7 +4,8 @@
 
 ### Added
 
-- Add `html`, `xml`, `css` and `toml`
+- Add `html`, `xml`, `css` and `toml` icons
+- Add `tests` folder icons
 
 ### Changed
 
