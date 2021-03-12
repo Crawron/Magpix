@@ -5,7 +5,7 @@ import { join } from "path"
 const colorMap: [dark: string, light: string][] = [
 	["3AC39E", "009E81"],
 	["619BFF", "647ADD"],
-	["FF6B6B", "E74B4B"],
+	["FF6B81", "E74B4B"],
 	["B980FF", "A879E2"],
 	["DDB70E", "A88900"],
 	["67C351", "5A9938"],

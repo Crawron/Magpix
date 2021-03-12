@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.1.0] - 2021-03-11
+
+### Changed
+
+- Adjust color palette's Red to be colder
+
 ## [1.0.0] - 2021-03-08
 
 ### Added
