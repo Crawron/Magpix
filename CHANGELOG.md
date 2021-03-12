@@ -10,6 +10,8 @@
 ### Changed
 
 - Adjust color palette's Red to be colder
+- Tweaked `.html` and `.xml` icons
+  - `.xml` is now a file
 
 ## [1.0.0] - 2021-03-08
 
