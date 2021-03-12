@@ -3,15 +3,15 @@ import mkdirp from "mkdirp"
 import { join } from "path"
 
 const colorMap: [dark: string, light: string][] = [
-	["3AC39E", "009E81"],
-	["619BFF", "647ADD"],
-	["FF6B81", "E74B4B"],
-	["B980FF", "A879E2"],
-	["DDB70E", "A88900"],
-	["67C351", "5A9938"],
-	["F39860", "D56520"],
-	["8693A2", "778697"],
-	["1F2428", "F6F8FA"],
+	["3AC39E", "009E81"], // Teal
+	["619BFF", "647ADD"], // Blue
+	["FF6B81", "E74B4B"], // Red
+	["B980FF", "A879E2"], // Purple
+	["DDB70E", "A88900"], // Yellow
+	["67C351", "5A9938"], // Green
+	["F39860", "D56520"], // Orange
+	["8693A2", "778697"], // Gray
+	["1F2428", "F6F8FA"], // Background
 ]
 
 const iconDirPath = "./icons"
