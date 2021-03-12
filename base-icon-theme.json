@@ -114,6 +114,8 @@
 		".eslintrc.yaml": "eslint",
 		".eslintrc.yml": "eslint",
 		".eslintrc.json": "eslint",
+		"vite.config.js": "vite",
+		"vite.config.ts": "vite",
 		"trans.rights": "trans",
 		"icawns": "magpix"
 	}

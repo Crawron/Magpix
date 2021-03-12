@@ -5,6 +5,7 @@
 ### Added
 
 - Add `.scss` icon
+- Add `vite.config.js` ([Vite](https://vitejs.dev/)'s config) icon
 
 ### Changed
 
