@@ -1,6 +1,10 @@
 # Change Log
 
-## [1.1.0] - 2021-03-11
+## [Unreleased]
+
+### Added
+
+- Add `.scss` icon
 
 ### Changed
 

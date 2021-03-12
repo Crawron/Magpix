@@ -46,7 +46,8 @@
 		"css": "css",
 		"html": "html",
 		"xml": "xml",
-		"toml": "toml"
+		"toml": "toml",
+		"scss": "scss"
 	},
 
 	"file": "file",
