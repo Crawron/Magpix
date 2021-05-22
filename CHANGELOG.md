@@ -1,5 +1,11 @@
 # Change Log
 
+## [Unreleased]
+
+### Fixed
+
+- Assign Dockerfile icon to it's language id instead of it's file name.
+
 ## [1.1.0] - 2021-03-11
 
 ### Added

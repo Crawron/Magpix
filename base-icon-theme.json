@@ -47,7 +47,8 @@
 		"html": "html",
 		"xml": "xml",
 		"toml": "toml",
-		"scss": "scss"
+		"scss": "scss",
+		"dockerfile": "docker"
 	},
 
 	"file": "file",
@@ -95,7 +96,6 @@
 		"tailwind.config.js": "tailwind",
 		".env": "dotenv",
 		"pnpm-lock.yaml": "pnpm",
-		"dockerfile": "docker",
 		"docker-compose.yml": "docker",
 		".dockerignore": "docker-gray",
 		".prettierrc": "prettier",
